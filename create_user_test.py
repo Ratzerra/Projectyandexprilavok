@@ -121,6 +121,7 @@ def test_create_user_no_first_name_get_error_response():
     # Проверка полученного ответа
     negative_assert_no_firstname(user_body)
 
+print 'dhjsbxdhjs'
 
 # Тест 11. Ошибка. Параметр состоит из пустой строки
 def test_create_user_empty_first_name_get_error_response():
